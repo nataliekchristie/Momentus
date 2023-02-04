@@ -1,0 +1,27 @@
+.settings-container {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.settings-container label {
+    padding-top: 20px;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.settings-container input {
+    display: block;
+    width: 400px;
+    height: 35px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px #707070 solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0 3%;
+}

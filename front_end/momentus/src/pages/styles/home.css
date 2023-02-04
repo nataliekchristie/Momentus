@@ -1,0 +1,33 @@
+.grid-container {
+    box-sizing: border-box;
+    height: calc(100vh - 75px);
+    max-width: 1770px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-container {
+    height: 100%;
+    width: 100%;
+}
+
+.post-stream {
+    min-width: 600px;
+    max-width: 900px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.center-grid-wrapper {
+    min-width: 900px;
+    max-height: 100%;
+    overflow: auto;
+    background: white;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 12%, rgba(212, 237, 230, 1) 100%);
+}

@@ -1,0 +1,14 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: block;
+    /* Global variables to help ease changing colors */
+    
+}
+
+body {
+    background-color: #e5e5e5;
+}
